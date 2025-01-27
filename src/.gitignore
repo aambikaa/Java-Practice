@@ -1,0 +1,12 @@
+# Ignore .vscode configuration folder
+.vscode/
+
+# Ignore compiled class files and build folder
+bin/
+
+# Ignore library files
+lib/
+
+
+
+
