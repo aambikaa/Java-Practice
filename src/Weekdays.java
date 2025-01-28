@@ -8,25 +8,34 @@ public class Weekdays {
         day.WeekdaysName(2);
         day.WeekdaysName(6);
         day.WeekdaysName(4);
+        day.WeekdaysName(10);
     }
 
     public void WeekdaysName(int number) {
-        if (number == 1) {
-            System.out.println("Monday");
-        } else if (number == 2) {
-            System.out.println("Tuesday");
-        } else if (number == 3) {
-            System.out.println("Wednesday");
-        } else if (number == 4) {
-            System.out.println("Thursday");
-        } else if (number == 5) {
-            System.out.println("Friday");
-        } else if (number == 6) {
-            System.out.println("Saturday");
-        } else if (number == 7) {
-            System.out.println("Sunday");
-        } else {
-            System.out.println("Invalid input! Please enter a number between 1 to 7.");
+        switch (number) {
+            case 1:
+                System.out.println("Sunday");
+                break;
+            case 2:
+                System.out.println("Monday");
+                break;
+            case 3:
+                System.out.println("Tuesday");
+                break;
+            case 4:
+                System.out.println("Wednesday");
+                break;
+            case 5:
+                System.out.println("Thursday");
+                break;
+            case 6:
+                System.out.println("Friday");
+                break;
+            case 7:
+                System.out.println("Saturday");
+                break;
+            default:
+                System.out.println("Invalid input! Please enter a number between 1 to 7.");
         }
     }
 }
